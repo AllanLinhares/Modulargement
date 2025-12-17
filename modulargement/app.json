@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "modulargement",
+    "slug": "modulargement",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.882023965462-b4lf6jk4absupalgpoie18nnevk77foq"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleidentifier": "com.modulargement.ios"
+    },
+    "android": {
+      "bundleIdentifier": "com.modulargement.android",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.modulargement"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
